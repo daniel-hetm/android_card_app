@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MyCardsApp</string>
+    <string name="number_answers_text">correct answers to upgrade</string>
+    <string name="number_cards">number cards</string>
+    <string name="topic_name_text">topic name</string>
+    <string name="deck_name_text">deck name</string>
+    <string name="save_text">Save</string>
+    <string name="question_text">Question</string>
+    <string name="add_line_text">add line</string>
+    <string name="answer_text">answer</string>
+    <string name="switch_text">hint/answer</string>
+    <string name="delete_line_text">delete line</string>
+    <string name="check_text">Check</string>
+    <string name="next_text">next</string>
+    <string name="no_questions_left">No questions left</string>
+    <string name="topic_name">topic name</string>
+    <string name="number_levels_text">number levels</string>
+    <string name="category_text">category</string>
+    <string name="correct_text">correct</string>
+    <string name="wrong_text">wrong</string>
+    <string name="confirm_delete_text">Type in topic name to confirm delete</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="confirm_text">Confirm</string>
+    <string name="you_sure_text">Are you sure to delete the topic? This will delete all cards created in this topic. </string>
+    <string name="card_number_dummy">(0/0)</string>
+    <string name="edit_card_button_text">Edits Card</string>
+    <string name="deleteCardText">Delete Card</string>
+    <string name="youSureDeleteCardText">Are you sure you want to delete the card?</string>
+    <string name="text_categories">Categories</string>
+</resources>

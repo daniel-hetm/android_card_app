@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/sureDeleteCardText"
+            android:text="@string/youSureDeleteCardText"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+            <Button
+                android:id="@+id/confirmDeleteCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm_text"
+                android:background="@drawable/round_corners"
+                android:stateListAnimator="@animator/main_button_animator"
+                app:layout_constraintTop_toBottomOf="@+id/sureDeleteCardText"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/cancelDeleteCard"/>
+
+            <Button
+                android:id="@+id/cancelDeleteCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel_text"
+                android:background="@drawable/round_corners"
+                android:stateListAnimator="@animator/main_button_animator"
+                app:layout_constraintTop_toBottomOf="@+id/sureDeleteCardText"
+                app:layout_constraintStart_toEndOf="@id/confirmDeleteCard"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
